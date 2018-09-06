@@ -1,0 +1,28 @@
+If live-server and babel installed globally:
+1) Run babble:
+babel <source_file> --out-file=public/scripts/app.js --presets=env,react --watch --plugins transform-class-properties
+2) Run server:
+live-server public/
+
+If live-server and babel installed locally:
+yarn run serve // runs live-server from package.json scripts tag
+yarn run build-babel  // runs babel from package.json scripts
+
+To run with webpack:
+yarn run build-webpack
+yarn run serve
+
+build-webpack -> outputs code to public/bundle.js
+build-babel -> outputs code to public/scripts/app.js file
+
+public/index.html -> loads public/bundle.js
+public/index-old.html -> loads public/scripts/app.js
+
+If webpack-dev-server installed:
+yarn run dev-server
+
+To run tests:
+yarn tests
+
+To run tests in watch mode:
+yarn test --watchAll

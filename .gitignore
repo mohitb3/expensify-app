@@ -1,0 +1,8 @@
+# ignore all installed npm modules
+/node_modules
+
+# ignore visual studio code configs
+.vscode
+
+# ignore code coverage files
+/coverage

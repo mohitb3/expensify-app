@@ -1,0 +1,35 @@
+html {
+    /* font-family: Arial; */
+    border: 1px solid blue;
+}
+
+body {
+    border: 1px solid red;
+}
+
+div {
+    border: 1px solid green;
+}
+
+h1 {
+    /* border: 1px solid brown; */
+    text-align: center;
+}
+
+h2 {
+    /* border: 1px solid brown; */
+    text-align: center;
+}
+
+p {
+    /* border: 1px solid black; */
+}
+
+form {
+    border: 1px solid blueviolet;
+}
+
+.row {
+    border: 1px dashed black;
+  }
+  
