@@ -35,7 +35,8 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'public'),
     historyApiFallback: true,
-  }
+  },
+  mode: 'development',
 };
 
 // loader - lets you customize behavior of webpack when it loads a given file
